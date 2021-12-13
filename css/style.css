@@ -8,7 +8,14 @@
 
 .body { 
 font-family: Roboto, sans-serif;
-color: var(--paragraph-text-color); }
+color: var(--paragraph-text-color); 
+}
+
+li{
+list-style-type: none;}
+
+a{
+text-decoration: none;}
 
 /* Logo */
 .logo-header {
@@ -18,7 +25,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
-text-decoration: none;
+
 }
 .logo:hover,
 .logo:focus{
@@ -37,14 +44,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;
-text-decoration: none;
 }
 .nav-link:hover{
     color: var(--interactive-element-color);
 }
-.nav-list li{
-list-style-type: none;
-}
+
 .open-page {
     color: var(--interactive-element-color);
 }
@@ -55,11 +59,8 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color:var(--paragraph-text-color);
-text-decoration: none;
 }
-.list-contact li {
-list-style-type: none;
-}
+
 .link-contact:hover,
 .link-contact:focus {
   color: var(--interactive-element-color);  
@@ -113,12 +114,6 @@ letter-spacing: 0.03em;
 color: var(--paragraph-text-color)
    }
 
-.benefits-section li{
-list-style-type: none;
-
-}
-
-
 
    /* Чем мы занимаемся */
 
@@ -132,9 +127,6 @@ letter-spacing: 0.03em;
 color: var(--title-text-color); 
    }
    
-   .section-class li{
-    list-style-type: none;
-   }
 
    /* Наша команда */
    .text-name {
@@ -154,15 +146,12 @@ letter-spacing: 0.03em;
 color: var(--paragraph-text-color);
    }
 
-   .section-command li {
-       list-style-type: none;
-   }
+   
 
    /* Footer */
    .logo-footer{
 font-family: Raleway, sans-serif;
 font-weight: bold;
-text-decoration: none;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -201,14 +190,10 @@ color: rgba(255, 255, 255, 0.6);
 .footer a:focus  {
     color: var(--interactive-element-color); 
 }
-.address li{
-list-style-type: none;
-}
-.address a{
-text-decoration: none;}
-
 
 /* Стили для портфолио */
+
+/* button */
 
 .button-item {
 font-weight: 500;
@@ -224,5 +209,23 @@ background: #F5F4FA
     color: #FFFFFF;
     background: #2196F3;
 }
-.list-btn li {
-list-style-type: none;}
+
+
+/*  Примери работ */
+
+.section-achievements h2{
+
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color)
+}
+ 
+.section-achievements p{
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 1.87;
+color: var(--paragraph-text-color);
+}
